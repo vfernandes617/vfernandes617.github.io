@@ -10,14 +10,15 @@
 
     <!--Body -->
     <body class="Background">
-        
+
         <!--Navbar-->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
+            <a href="about.html">About</a>
+            <a href="https://github.com/vfernandes617">GitHub</a>
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
         </div>
+
 
         <!--Breaks inserted to add space between navbar and the first heading-->
         <br>
@@ -37,7 +38,8 @@
             <h1 class="white-text">Valter Fernandes portfolio</h1>
             <strong>
                 <p class="center">
-                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                    <q>
+                        The computer programmer is a creator of universes for which he alone is the lawgiver.
                         <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
                         <br>field of battle and to command such unswervingly dutiful actors or troops.
                     </q>
@@ -45,44 +47,44 @@
                     <br>
                     <br> My name is Valter Fernandes. Welcome to my portfolio website. On it, I will tell you about my background and experience.
                     <br>
-                    <br> Thank you for stopping by and enjoy! 
+                    <br> Thank you for stopping by and enjoy! Check out a few of my projects below
                 </p>
             </strong>
         </div>
 
-        <!--About section-->
-        <div class="Row" id="About">
+        <!--Unity game section-->
+        <div class="Row" id="Unity Live Project">
             <!--Left column-->
             <div class="Column_2">
-                <img src="./img/desk.jpg" alt="Replace with your own image and description">
+                <img src="./img/TappyPlane.png" alt="Replace with your own image and description">
             </div>
             <!--Right column-->
             <div class="Column_1">
-                <h1>About</h1>
+                <h1>Unity Live Project</h1>
                 <p>
-                    I am an inspired software developer. A new father of one and a boundless imagination. 
+                    As part of my work with Prosper IT Consulting I got a chance to work on a two week project where I had to create an arcade game. The game I chose to go with is a clone of the popluar game Flappy Bird. I titled Tappy Plane.
+
+                    <br> During this project I got the chance to work along side other developers utilizing Agile/Scrum practices. We met for Daily stand ups and got to follow our process on Azure's Kanban board.
+                    <br>Please get out my github profile for this  <a href="https://github.com/vfernandes617/Live-Project-Unity" target="_blank">Live Unity Project.</a>
                     <br>
-                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
-                    <br>
-                    <br>I am a game developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
                 </p>
             </div>
         </div>
 
-        <!--GitHub section-->
-        <div class="Row" id="GitHub">
+        <!--Unreal Live Project section-->
+        <div class="Row" id="Unreal">
             <!--Left column-->
             <div class="Column_1">
-                <h1>GitHub</h1>
+                <h1>Unreal Live Project</h1>
                 <p>
-                    You can view my coding projects on my GitHub profile here:
-                    <br>
-                    <p class="center"><a href="https://github.com/vfernandes617" target="_blank">Valters Github</a></p>
+                    The second two week sprint I had the chance to create a sandbox game. I chose to go with creating a the popluar show Ninja warrior.
+                    <br> Be sure to check out my Unreal Project in the link below!
+                <p class="center"><a href="https://github.com/vfernandes617/Live-Project-UnrealEngine" target="_blank">Unreal Project</a></p>
                 </p>
             </div>
             <!--Right column-->
             <div class="Column_2">
-                <a href="https://github.com/vfernandes617" target="_blank"><img src="./img/GitHub.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/vfernandes617/Live-Project-UnrealEngine" target="_blank"><img src="./img/RAgdoll.gif" alt="Unreal"></a>
             </div>
         </div>
 
@@ -96,14 +98,15 @@
             <div class="Column_1 Column_tall">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="" method="POST">
+                    <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
+                    <input type="text" placeholder="Please enter your name here">
                     <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
                     <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
                 </form>
             </div>
         </div>
@@ -111,8 +114,8 @@
         <!--Footer section-->
         <footer>
             <p>
-                <p class="center">&copy Valter., <a href="https://github.com/vfernandes617" target="_blank">Valter Fernandes</a></p>
-                <br>
+            <p class="center">&copy  2025, <a href="https://github.com/vfernandes617" target="_blank">Valter Fernandes</a></p>
+            <br>
             </p>
         </footer>
     </body>

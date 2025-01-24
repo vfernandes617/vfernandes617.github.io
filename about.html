@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="stylesheet/sample_portfolio.css">
+    <title>About Valter Fernandes</title>
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
 </head>
-<body>
-    <h1>About Page</h1>
-    <p>This is the About page of the website.</p>
-    <a href="index.html">Go Back to Home</a>
+<body class="Background">
+    <!--Navigation bar-->
+    <div class="Navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/vfernandes617">GitHub</a>
+        <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+    </div>
+    <!--Insert break from nav bar-->
+    <br>
+    <br>
+
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="./img/Checkpoint.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <!--Video text-->
+    <div class="Video_Text">
+        <h1 class="white-text">About Page</h1>
+        <strong>
+            <p class="center">
+                <q>
+                    Video games are art. It's a way to express yourself, and it's a way to connect with other people
+                </q>
+                <br>
+                <br>- Hideo Kojima
+                <br>
+                <br> Thank you for stopping by!
+            </p>
+        </strong>
+    </div>
+
+
+    <!--About section-->
+    <div class="Row" id="About">
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="./img/ValterF.jpg" alt="Replace with your own image and description">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am an inspired software developer. A new father of one and a boundless imagination. I always had a passion for creating games. As a child I would often make up games for me and my friends to play, whether that is make beleive pokemon or to pretending to know what the rules of Yuigioh were.
+                In my adult life we transitioned to creating games that involed drinking or make shift board games. The biggest enjoyment I would get  from this was the fun process of coming up something people would enjoy and seeing other
+                enjoy something you came up with.
+                <br>
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                <br>
+                <br>I am a game developer and would love to work with you on your project. <a href="mailto:valterfernandes817@gmail.com">Contact me</a>
+
+            </p>
+        </div>
+    </div>
+
+
 </body>
 </html>

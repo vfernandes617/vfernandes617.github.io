@@ -10,7 +10,7 @@ h1 {
     font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: aquamarine; 
+    color: black; 
 }
 
 /* Heading 1 element hover effect */
